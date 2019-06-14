@@ -19,9 +19,22 @@ class CreateRegistroTable extends Migration
         $table->string('Apellidos');
         $table->string('Fecha_nacimiento');
         $table->string('Cedula');
-        
+        $table->string('Sexo');
+        $table->text('Direccion');
+        $table->string('Telefono');
+        $table->string('Celular');
+        $table->string('Diagnostico');
+        $table->text('Tratamiento');
+        $table->string('Tiempo_tratamiento');
+        $table->string('Boveda_palatina');
+        $table->string('Forma_arcada');
+        $table->string('Biotipo');
+        $table->string('Perfil');
+        $table->string('Labios');
+        $table->string('Cierre_labial');
+        $table->string('HIgiene bucal');
     });
-    }
+}
 
     /**
      * Reverse the migrations.
