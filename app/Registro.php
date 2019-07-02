@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Registro extends Model
 {
-    //
+    protected $table = "registro";
+    protected $primaryKey = "Id_registro";
+ 
 }
