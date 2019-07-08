@@ -7,9 +7,10 @@ use App\Usuarios;
 
 class UsuariosController extends Controller
 {
-    public function Createuser()
+    public function Createuser(Request $request)
     {
-
+        $data =  $request->all();
+        $usuarios = Usuarios::create($data);
     }
     Public function GetAlluser()
     {
